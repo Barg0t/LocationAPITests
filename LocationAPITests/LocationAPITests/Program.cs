@@ -16,7 +16,7 @@ RestClient client = new RestClient(RestClientOptions);
 // create requests for the data. In this case from the location country/cities. We're specifically looking for cities
 // from "NL" (Netherlands) here. This can however be dynamic and changed to other countries.
 RestRequest request = new RestRequest("country/cities/NL");
-request.AddHeader("apikey", "4mwGx3UhK4QrIOTKZTHkxZV4o3mFevMY");
+request.AddHeader("apikey", "");
 
 // get the response from the server and turn the response into a usable list based on a class which represents
 // the generated JSON
